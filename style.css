@@ -1,0 +1,14 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.font-custom{
+    font-weight: bold;
+}
+
+.display{
+    display: none;
+}
+
