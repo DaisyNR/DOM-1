@@ -7,8 +7,8 @@ let vanishBtn = document.querySelector('#vanish-btn');
 
 colorBtn.addEventListener('click', ()=>{
     p.forEach(p => {
-        let r = Math.floor(Math.random() * 255)
-        let g = Math.floor(Math.random() * 255)
+        let r = Math.floor(Math.random() * (255 - 1 +1) + 1)
+        let g = Math.floor(Math.random() * (255 - 1 +1) + 1)
         let b = Math.floor(Math.random() * 255)
         p.style.color = `rgb(${r}, ${g}, ${b})`
     });
